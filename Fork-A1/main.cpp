@@ -11,7 +11,7 @@
 int main(int argc, char* argv[]){
     // Convert the number to an int
     int startingNum = atoi(argv[1]);
-
+    
     // Check for valid input
     if(startingNum <= 1){
         std::cout << "Please enter a number greater than 1!\n";
